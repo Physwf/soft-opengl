@@ -85,10 +85,10 @@ struct LowPolyCatFragmentShader : public gl_shader
 		return Out;
 	}
 
-	PS_Output Output;
-	virtual GLvoid* fs_process(GLvoid* Vertex, GLsizei screenx,GLsizei screeny)
+	PS_Output Output; 
+	virtual GLvoid* fs_process(GLvoid* Input, struct gl_rs_state* rs, GLsizei screenx, GLsizei screeny) override
 	{
-		Output = process(*(PS_Input*)Vertex);
+		Output = process(*(PS_Input*)Input);
 		return &Output;
 	}
 };

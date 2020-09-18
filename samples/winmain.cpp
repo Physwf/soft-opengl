@@ -70,9 +70,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	glutInit(0, 0, W, H, FrameBuffer);
 	//glInit();
 	//glSetup();
-	//S.Init();
 
+	//S.Init();
 	Lambor.Init();
+
 	MSG msg;
 	while (true)
 	{
