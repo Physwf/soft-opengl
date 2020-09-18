@@ -20,11 +20,12 @@ Cat:
 Car:
 ![image](https://github.com/Physwf/resources/blob/master/screenshot/Lamborghini.png)
 
-## samples usage
-1.git clone https://github.com/Physwf/soft-opengl.git
-2.cd soft-opengl
-3.makdir build
-4.cmake ..
-5.git clone https://github.com/Physwf/resources.git
-6.copy "Lamborginhi Aventador OBJ" "lowpolycat" resources to soft-opengl working directory
-7.compile "samples" and run... (comment code in winmain to select model to render)
+## samples usage  
+
+1.git clone https://github.com/Physwf/soft-opengl.git  
+2.cd soft-opengl  
+3.makdir build  
+4.cmake ..  
+5.git clone https://github.com/Physwf/resources.git  
+6.copy "Lamborginhi Aventador OBJ" "lowpolycat" resources to soft-opengl working directory  
+7.compile "samples" and run... (comment code in winmain to select model to render)  
