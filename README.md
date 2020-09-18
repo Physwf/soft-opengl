@@ -24,8 +24,9 @@ Car:
 
 1.git clone https://github.com/Physwf/soft-opengl.git  
 2.cd soft-opengl  
-3.makdir build  
-4.cmake ..  
-5.git clone https://github.com/Physwf/resources.git  
-6.copy "Lamborginhi Aventador OBJ" "lowpolycat" resources to soft-opengl working directory  
-7.compile "samples" and run... (comment code in winmain to select model to render)  
+3.mkdir build  
+4.cd build  
+5.cmake ..  
+6.git clone https://github.com/Physwf/resources.git  
+7.copy "Lamborginhi Aventador OBJ" "lowpolycat" resources to soft-opengl working directory  
+8.compile "samples" and run... (comment code in winmain.cpp to select model to render)  
